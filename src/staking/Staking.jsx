@@ -43,15 +43,15 @@ function Staking() {
       {account && (
         <ModalCOntainer>
           <AppBody>
-            <AppHeader title="Your Stake" subtitle="Stake your $YARL tokens here" noConfig/>
+            <AppHeader title="Your Stake" subtitle="Stake your $YARL tokens here" noConfig />
             <Body>
               {account && (
                 <Flex flexDirection="column" alignItems="center" mt="24px">
                   <Text color="textSubtle" mb="8px">
-				  {parseFloat(totalStaked.token).toLocaleString()} YARL
+                    {parseFloat(totalStaked.token).toLocaleString()} YARL
                   </Text>
-				  <Text color="textSubtle" mb="8px">
-				  {totalStaked.usd}{" "}YARL
+                  <Text color="textSubtle" mb="8px">
+                    {totalStaked.usd} YARL
                   </Text>
                   {/* <Button id="import-pool-link" variant="secondary" scale="sm" to="/find">
                    Your Staked balancekens
@@ -70,16 +70,16 @@ function Staking() {
       <SlideFade direction="left" offsetY="40px" in={isOpen}>
         <Title>Available Pools</Title>
         {!account && (
-			<StyledNotFound>
-			{/* <LogoIcon width="64px" mb="8px" /> */}
-			<Heading scale="xxl">401</Heading>
-			<Text mb="16px">Oops, not connected.</Text>
-			{/* <Button as={Link} to="/" scale="sm">
+          <StyledNotFound>
+            {/* <LogoIcon width="64px" mb="8px" /> */}
+            <Heading scale="xxl">401</Heading>
+            <Text mb="16px">Oops, not connected.</Text>
+            {/* <Button as={Link} to="/" scale="sm">
 			  {t('Back Home')}
 			</Button> */}
-		  </StyledNotFound>
-			)}
-        {account && (<PoolList onUpdateTotalStaked={updateTotalStaked} />)}
+          </StyledNotFound>
+        )}
+        {account && <PoolList onUpdateTotalStaked={updateTotalStaked} />}
       </SlideFade>
     </Container>
   )
