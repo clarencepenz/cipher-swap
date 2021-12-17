@@ -1,0 +1,31 @@
+{
+  "name": "PancakeSwap Default List",
+  "timestamp": "2021-05-06T00:00:00Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://pancakeswap.finance/logo.png",
+  "keywords": ["", "default"],
+  "tokens": [
+    
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x55d398326f99059ff775485246999027b3197955.png"
+    },
+    {
+      "name": "Yarl",
+      "symbol": "YARL",
+      "address": "0x843cbc1732ae7d7ba0533c6380989dacec315ffe",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/12584.png"
+    }
+  ]
+}
