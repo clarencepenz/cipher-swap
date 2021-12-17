@@ -91,7 +91,7 @@ export default function Pool() {
   return (
     <Page>
     { !account && (<AppBody>
-        <AppHeader title={t('Your Stake')} subtitle={t('Stake your $YARL tokens here')} />
+        <AppHeader title={t('Your Stake')} subtitle={t('Stake your $YARL tokens here')}  noConfig/>
         <Body>
           {renderBody()}
           {account && !v2IsLoading && (

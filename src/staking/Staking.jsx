@@ -43,7 +43,7 @@ function Staking() {
       {account && (
         <ModalCOntainer>
           <AppBody>
-            <AppHeader title="Your Stake" subtitle="Stake your $YARL tokens here" />
+            <AppHeader title="Your Stake" subtitle="Stake your $YARL tokens here" noConfig/>
             <Body>
               {account && (
                 <Flex flexDirection="column" alignItems="center" mt="24px">
