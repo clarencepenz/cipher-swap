@@ -48,10 +48,10 @@ function Staking() {
               {account && (
                 <Flex flexDirection="column" alignItems="center" mt="24px">
                   <Text color="textSubtle" mb="8px">
-                    {parseFloat(totalStaked.token).toLocaleString()} YARL
+                    {parseFloat(totalStaked.token).toLocaleString()}{' '}Total YARL Staked
                   </Text>
                   <Text color="textSubtle" mb="8px">
-                    {totalStaked.usd} YARL
+                    {totalStaked.usd}{' '} Total YARL Earned
                   </Text>
                   {/* <Button id="import-pool-link" variant="secondary" scale="sm" to="/find">
                    Your Staked balancekens

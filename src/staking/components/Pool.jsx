@@ -24,7 +24,7 @@ const PoolOverlay = ({ children }) => (
 		left={0}
 		right={0}
 		bottom={0}
-		bg="whiteAlpha.900"
+		bg="#000"
 	>
 		{children}
 	</Center>
@@ -65,7 +65,7 @@ const Pool = ({
 		color='#fff'
 		my={4}
 		p={4}
-		borderRadius="md"
+		borderRadius="28px"
 		boxShadow="md"
 		pos="relative"
 		overflow="hidden"

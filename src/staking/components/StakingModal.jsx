@@ -151,7 +151,7 @@ export default function StakingModal({ contract, isTriggerDisabled, isStaking, o
   if (isStaking) {
     const isClaiming = currentStep === 'claiming'
     return (
-      <Button onClick={onClaim} isLoading={isClaiming}>
+      <Button onClick={onClaim} isLoading={isClaiming}  bg="#F3BA2F">
         Unstake
       </Button>
     )
