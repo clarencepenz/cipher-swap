@@ -96,7 +96,7 @@ const Pool = ({
 				</Tooltip>
 			</Text>
 		</Flex>
-		<Divider />
+		{!isLoading && <Divider />}
 		<Flex
 			color="gray.500"
 			justify="space-around"
