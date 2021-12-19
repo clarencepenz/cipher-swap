@@ -31,7 +31,7 @@ import { toFixed } from '../utils'
 // import { useAuthContext } from '../contexts/AuthProvider'
 
 const convertNumberToWei = (n) => {
-  let numberOfTokens = n * 1e9
+  let numberOfTokens = n * 1e18 
 
   if (numberOfTokens.toString().search('e') > 0) {
     numberOfTokens = toFixed(numberOfTokens)
